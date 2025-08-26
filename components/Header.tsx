@@ -23,7 +23,7 @@ export default function Header() {
       <div className="font-bold text-xl tracking-wider">Hasan Semih Aktaş</div>
       <nav className="flex gap-8 items-center">
         {navLabels[lang].map((item) => (
-          <Link key={item.href} href={item.href} className="hover:text-blue-400 transition font-bold">
+          <Link key={item.href} href={item.href} className="hover:text-blue-400 transition font-bold" style={{ fontFamily: 'Orbitron, sans-serif', fontOpticalSizing: 'auto', fontStyle: 'normal' }}>
             {item.label}
           </Link>
         ))}

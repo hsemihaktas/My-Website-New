@@ -5,11 +5,11 @@ import { useLang } from "../context/LangContext";
 export default function Footer() {
   const footerContent = {
     tr: {
-      mail: "semihaktas.dev@gmail.com",
+      mail: "hsemihaktas@gmail.com",
       copyright: "© 2025 Hasan Semih Aktaş. Tüm hakları saklıdır."
     },
     en: {
-      mail: "semihaktas.dev@gmail.com",
+      mail: "hsemihaktas@gmail.com",
       copyright: "© 2025 Hasan Semih Aktaş. All rights reserved."
     }
   };
@@ -19,10 +19,8 @@ export default function Footer() {
   return (
     <footer className="w-full py-6 flex flex-col md:flex-row items-center justify-between border-t border-neutral-800 mt-16 px-4 md:px-12 bg-transparent relative">
       <div className="flex gap-4 mb-4 md:mb-0">
-        <a href="#" aria-label="LinkedIn" className="hover:text-blue-400 transition"><FaLinkedin size={22} /></a>
-        <a href="#" aria-label="Dribbble" className="hover:text-pink-400 transition"><FaDribbble size={22} /></a>
-        <a href="#" aria-label="Facebook" className="hover:text-blue-600 transition"><FaFacebook size={22} /></a>
-        <a href="#" aria-label="Instagram" className="hover:text-pink-500 transition"><FaInstagram size={22} /></a>
+        <a href="https://www.linkedin.com/in/hsemihaktas/" aria-label="LinkedIn" className="hover:text-blue-400 transition"><FaLinkedin size={22} /></a>
+        <a href="https://www.instagram.com/hsemihaktas/" aria-label="Instagram" className="hover:text-pink-500 transition"><FaInstagram size={22} /></a>
         <a href="#" aria-label="Twitter" className="hover:text-blue-300 transition"><FaTwitter size={22} /></a>
       </div>
       <div className="flex items-center gap-2">

@@ -33,7 +33,7 @@ export default function AboutMe() {
         <p className="text-gray-300 mb-4">{c.p1}</p>
         <p className="text-gray-400 mb-4">{c.p2}</p>
         <p className="text-gray-400 mb-6">{c.p3}</p>
-        <a href={c.cvFile} download className="border px-6 py-2 rounded-md hover:bg-blue-500 hover:text-white transition text-base">{c.cv}</a>
+  <a href={c.cvFile} download className="border px-6 py-2 rounded-md hover:bg-gray-700 hover:text-white transition text-base">{c.cv}</a>
       </div>
     </section>
   );

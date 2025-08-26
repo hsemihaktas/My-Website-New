@@ -1,18 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap");
+@import "tailwindcss";
+
 html {
   scroll-behavior: smooth;
 }
-@import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-:root {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-heading: "Orbitron", sans-serif;
+  --font-sans: "Roboto", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,6 +28,27 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
   font-size: 20px;
+  /* Subtle tech-inspired background: dark radial gradient + faint grid */
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 20%, #232329 80%, #0a0a0a 100%),
+    url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" xmlns="http://www.w3.org/2000/svg"><rect width="100%25" height="100%25" fill="none"/><g stroke="%23333" stroke-width="0.5"><line x1="0" y1="0" x2="0" y2="100%25"/><line x1="40" y1="0" x2="40" y2="100%25"/><line x1="80" y1="0" x2="80" y2="100%25"/><line x1="120" y1="0" x2="120" y2="100%25"/><line x1="160" y1="0" x2="160" y2="100%25"/><line x1="200" y1="0" x2="200" y2="100%25"/></g></svg>');
+  background-size: cover, 160px 160px;
+  background-repeat: no-repeat, repeat;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+span, p, div {
+  font-family: var(--font-sans);
+}
+
+code, pre, kbd, samp, .font-mono {
+  font-family: var(--font-mono);
 }

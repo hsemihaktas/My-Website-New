@@ -76,7 +76,7 @@ export default function Projects() {
               <div className="flex mt-auto">
                 <a
                   href={`/project/${project.url.split('/').pop()}`}
-                  className="px-5 py-2 rounded bg-blue-600 text-white text-base font-medium hover:bg-blue-700 transition w-full text-center"
+                  className="border px-6 py-2 rounded-md hover:bg-gray-700 hover:text-white transition text-base w-full text-center font-medium"
                 >
                   {l.viewProject}
                 </a>
