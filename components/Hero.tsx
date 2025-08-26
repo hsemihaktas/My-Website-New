@@ -1,14 +1,32 @@
+"use client";
+import { useLang } from "../context/LangContext";
+
 export default function Hero() {
+  const heroContent = {
+    tr: {
+      name: "Hasan Semih Aktaş",
+      title: "Frontend Developer",
+      desc: "Yaratıcı ve çözüm odaklı bir Frontend Developer olarak, modern web teknolojileriyle kullanıcı odaklı ve ölçeklenebilir arayüzler geliştiriyorum. React ve Next.js başta olmak üzere, güncel JavaScript ekosistemine hakimim. Takım çalışmasına yatkın, iletişimi güçlü ve öğrenmeye açık biriyim.",
+      contact: "İletişime Geç"
+    },
+    en: {
+      name: "Hasan Semih Aktaş",
+      title: "Frontend Developer",
+      desc: "As a creative and solution-oriented Frontend Developer, I build user-centric and scalable interfaces with modern web technologies. I am proficient in the latest JavaScript ecosystem, especially React and Next.js. I am a team player, strong communicator, and eager to learn.",
+      contact: "Contact Me"
+    }
+  };
+
+  const { lang } = useLang();
+  const c = heroContent[lang as 'tr' | 'en'];
   return (
     <section id="home" className="min-h-[80vh] flex flex-col justify-center py-0 border-b border-neutral-800">
       <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-center gap-10 md:gap-16 w-full max-w-5xl mx-auto px-4">
         <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold mb-2">Hasan Semih Aktaş</h1>
-          <h2 className="text-lg md:text-xl font-semibold text-blue-400 mb-4">Frontend Developer</h2>
-          <p className="max-w-xl text-gray-300 mb-6">
-            Yaratıcı ve çözüm odaklı bir Frontend Developer olarak, modern web teknolojileriyle kullanıcı odaklı ve ölçeklenebilir arayüzler geliştiriyorum. React ve Next.js başta olmak üzere, güncel JavaScript ekosistemine hakimim. Takım çalışmasına yatkın, iletişimi güçlü ve öğrenmeye açık biriyim.
-          </p>
-          <a href="#contact" className="border px-6 py-2 rounded-md hover:bg-blue-500 hover:text-white transition text-base">İletişime Geç</a>
+          <h1 className="text-4xl md:text-5xl font-bold mb-2">{c.name}</h1>
+          <h2 className="text-lg md:text-xl font-semibold text-blue-400 mb-4">{c.title}</h2>
+          <p className="max-w-xl text-gray-300 mb-6">{c.desc}</p>
+          <a href="#contact" className="border px-6 py-2 rounded-md hover:bg-blue-500 hover:text-white transition text-base">{c.contact}</a>
         </div>
         <div className="flex-1 flex justify-center items-center mb-8 md:mb-0">
           <img
