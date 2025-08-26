@@ -23,21 +23,21 @@ export default function Header() {
       <div className="font-bold text-xl tracking-wider">Hasan Semih Aktaş</div>
       <nav className="flex gap-8 items-center">
         {navLabels[lang].map((item) => (
-          <Link key={item.href} href={item.href} className="hover:text-blue-400 transition">
+          <Link key={item.href} href={item.href} className="hover:text-blue-400 transition font-bold">
             {item.label}
           </Link>
         ))}
       </nav>
       <div className="flex items-center gap-2">
         <button
-          className={`px-3 py-1 rounded-md border ${lang === "tr" ? "border-blue-400 text-blue-400" : "border-gray-400 text-gray-400"} hover:bg-blue-500 hover:text-white transition text-sm`}
+          className={`px-3 py-1 font-extrabold rounded-md border ${lang === "tr" ? "border-blue-400 text-blue-400" : "border-gray-400 text-gray-400"} hover:bg-blue-500 hover:text-white transition text-sm`}
           type="button"
           onClick={() => setLang("tr")}
         >
           TR
         </button>
         <button
-          className={`px-3 py-1 rounded-md border ${lang === "en" ? "border-blue-400 text-blue-400" : "border-gray-400 text-gray-400"} hover:bg-blue-500 hover:text-white transition text-sm`}
+          className={`px-3 py-1 font-extrabold rounded-md border ${lang === "en" ? "border-blue-400 text-blue-400" : "border-gray-400 text-gray-400"} hover:bg-blue-500 hover:text-white transition text-sm`}
           type="button"
           onClick={() => setLang("en")}
         >
