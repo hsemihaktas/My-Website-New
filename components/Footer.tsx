@@ -11,12 +11,12 @@ export default function Footer() {
         <a href="#" aria-label="Twitter" className="hover:text-blue-300 transition"><FaTwitter size={22} /></a>
       </div>
       <div className="flex items-center gap-2">
-        <a href="mailto:Georgy@gmail.com" className="border px-4 py-2 rounded-md bg-neutral-900 text-gray-200 hover:bg-blue-500 hover:text-white transition text-sm flex items-center gap-2">
-          Georgy@gmail.com
+        <a href="mailto:semihaktas.dev@gmail.com" className="border px-4 py-2 rounded-md bg-neutral-900 text-gray-200 hover:bg-blue-500 hover:text-white transition text-sm flex items-center gap-2">
+          semihaktas.dev@gmail.com
         </a>
       </div>
       <div className="w-full text-center text-xs text-gray-500 mt-4 md:mt-0 md:absolute md:bottom-2 md:left-0 md:right-0">
-        © 2023 all rights reserved.
+        © 2025 Hasan Semih Aktaş. Tüm hakları saklıdır.
       </div>
     </footer>
   );

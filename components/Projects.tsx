@@ -17,7 +17,7 @@ type Project = {
   technologies: string[];
 };
 
-const locale = "EN"; // veya "TR" olarak değiştirilebilir
+const locale = "TR"; // veya "TR" olarak değiştirilebilir
 
 export default function Projects() {
   const [showAll, setShowAll] = useState(false);
@@ -58,7 +58,7 @@ export default function Projects() {
               </div>
               <div className="flex mt-auto">
                 <a
-                  href={project.url}
+                  href={`/project/${project.url.split('/').pop()}`}
                   className="px-5 py-2 rounded bg-blue-600 text-white text-base font-medium hover:bg-blue-700 transition w-full text-center"
                 >
                   View Project
