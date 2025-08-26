@@ -1,14 +1,16 @@
 
 
-import AboutMe from "./components/AboutMe";
-import Hero from "./components/Hero";
+import Hero from "../components/Hero";
+import AboutMe from "../components/AboutMe";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <AboutMe />
-      {/* Diğer componentler buraya eklenecek */}
+  <AboutMe />
+  <Projects />
+  {/* Diğer componentler buraya eklenecek */}
     </main>
   );
 }

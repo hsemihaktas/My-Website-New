@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Project 1",
+    "description": "A web platform for educational content.",
+    "tech": ["React", "Next.js", "TypeScript"],
+    "image": "/file.svg",
+    "url": "#",
+    "category": ["Web Design", "Usability Testing"]
+  },
+  {
+    "title": "Project 2",
+    "description": "AI-powered chatbot for customer support.",
+    "tech": ["Python", "FastAPI", "AI Chatbot"],
+    "image": "/globe.svg",
+    "url": "#",
+    "category": ["AI Chatbots", "Machine Learning"]
+  },
+  {
+    "title": "Project 3",
+    "description": "Data visualization dashboard for business analytics.",
+    "tech": ["Power BI", "D3.js"],
+    "image": "/window.svg",
+    "url": "#",
+    "category": ["Data Analytics", "Visualization"]
+  }
+]
