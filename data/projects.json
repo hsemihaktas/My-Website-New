@@ -1,5 +1,41 @@
 [
   {
+    "title": { "EN": "Encrypt Dairy", "TR": "Encrypt Dairy" },
+    "description": {
+      "EN": "-Secure Notes: Stores personal notes securely with AES-based encryption. -React Native & Expo: Mobile app for both iOS and Android. -Data Management: Add, read, update, and delete notes. -Advanced Encryption: Uses expo-crypto for note encryption, accessible only with the correct key. -User Experience: Minimal and user-friendly interface design.",
+      "TR": "-Güvenli Notlar: Kullanıcıların kişisel notlarını AES tabanlı şifreleme ile güvenli bir şekilde saklar. -React Native & Expo: Hem iOS hem Android platformlarında çalışabilen mobil uygulama. -Veri Yönetimi: Not ekleme, okuma, güncelleme ve silme işlemleri. -Gelişmiş Şifreleme: expo-crypto kullanarak notların şifrelenmesi ve yalnızca doğru anahtar ile erişim sağlanması. -Kullanıcı Deneyimi: Minimal ve kullanıcı dostu arayüz tasarımı."
+    },
+    "shortDescription": {
+      "EN": "A secure note-taking app with AES encryption, built using React Native & Expo.",
+      "TR": "AES şifreleme ile güvenli not tutma uygulaması, React Native & Expo ile geliştirildi."
+    },
+    "codeLink": "",
+    "iconFile": "images/Encrypt-Dairy-Icon.png",
+    "imageFiles": [],
+    "videoFile": "videos/Encrypt-Dairy.mp4",
+    "projectSite": "",
+    "url": "/project/encrypt-dairy",
+    "technologies": ["React Native", "Expo", "expo-crypto", "AES", "Mobile"]
+  },
+  {
+    "title": { "EN": "Word Application - Lexicon", "TR": "Word Application - Lexicon" },
+    "description": {
+      "EN": "-Word translation and synonym display (with MyMemory & Datamuse API). -Add/remove favorites and interactive word learning with game mode. -Built using React Native, Expo, Context API, React Navigation, Material Icons, Axios/Fetch.",
+      "TR": "-Kelime çeviri ve eşanlamlı gösterimi (MyMemory & Datamuse API ile). -Favorilere ekleme/çıkarma ve oyun moduyla etkileşimli kelime öğrenimi. -React Native, Expo, Context API, React Navigation, Material Icons, Axios/Fetch teknolojileri kullanıldı."
+    },
+    "shortDescription": {
+      "EN": "A mobile app for word translation, synonyms, and interactive learning.",
+      "TR": "Kelime çeviri, eşanlamlı ve etkileşimli öğrenim için mobil uygulama."
+    },
+    "codeLink": "",
+    "iconFile": "images/Lexicon-Icon.png",
+    "imageFiles": [],
+    "videoFile": "videos/Lexicon.mp4",
+    "projectSite": "",
+    "url": "/project/word-application-lexicon",
+    "technologies": ["React Native", "Expo", "MyMemory API", "Datamuse API"]
+  },
+  {
     "title": { "EN": "Property Website", "TR": "Emlak Web Sitesi" },
     "description": {
       "EN": "-Developed a full stack web application for property management using React.js, Node.js, and MySQL. -Successfully managed listing operations through efficient CRUD operations.",
@@ -8,16 +44,6 @@
     "shortDescription": {
       "EN": "A platform for managing property listings with secure authentication, built using React, Node.js, and MySQL.",
       "TR": "React, Node.js ve MySQL kullanılarak inşa edilen, güvenli kimlik doğrulama ile emlak listelemelerini yönetmek için bir platform."
-    },
-    "meta": {
-      "title": {
-        "EN": "Property Website | Real Estate App",
-        "TR": "Emlak Web Sitesi | İlan Yönetim Platformu"
-      },
-      "description": {
-        "EN": "A full-stack real estate platform built with React and Node.js. Secure and efficient listing management.",
-        "TR": "React ve Node.js ile geliştirilmiş tam yığın emlak platformu. Güvenli ve etkili ilan yönetimi."
-      }
     },
     "codeLink": "https://github.com/hsemihaktas/EstateWebsite",
     "iconFile": "",
@@ -40,16 +66,6 @@
       "EN": "A birthday party organization website with online reservation and contact form via EmailJS.",
       "TR": "EmailJS ile iletişim formu ve online rezervasyon özellikli doğum günü organizasyon web sitesi."
     },
-    "meta": {
-      "title": {
-        "EN": "Birthday Organization | Event Planning Site",
-        "TR": "Doğum Günü Organizasyon | Etkinlik Planlama"
-      },
-      "description": {
-        "EN": "Plan your dream birthday online! Reserve your spot and customize packages with ease.",
-        "TR": "Hayalinizdeki doğum gününü online planlayın! Kolayca rezervasyon yapın ve paketleri kişiselleştirin."
-      }
-    },
     "codeLink": "",
     "iconFile": "",
     "imageFiles": ["images/Birthday-Organization.jpeg"],
@@ -67,16 +83,6 @@
     "shortDescription": {
       "EN": "A fast and responsive Next.js website with a user-friendly interface and optimized performance.",
       "TR": "Hızlı ve duyarlı bir Next.js web sitesi, kullanıcı dostu bir arayüz ve optimize edilmiş performans."
-    },
-    "meta": {
-      "title": {
-        "EN": "PAE Website | Corporate Site",
-        "TR": "PAE Web Sitesi | Kurumsal Web Tasarımı"
-      },
-      "description": {
-        "EN": "A modern and responsive website built with Next.js and TailwindCSS for corporate use.",
-        "TR": "Kurumsal kullanım için Next.js ve TailwindCSS ile geliştirilmiş modern ve duyarlı web sitesi."
-      }
     },
     "codeLink": "",
     "iconFile": "",
@@ -96,16 +102,6 @@
       "EN": "An elegant React-based website for a construction company, featuring interactive sliders and seamless UX.",
       "TR": "Etkileşimli kaydırıcılar ve sorunsuz UX içeren, bir inşaat şirketi için şık bir React tabanlı web sitesi."
     },
-    "meta": {
-      "title": {
-        "EN": "Now Yapı Website | Construction Company Site",
-        "TR": "Now Yapı Web Sitesi | İnşaat Şirketi Web Sitesi"
-      },
-      "description": {
-        "EN": "A clean and responsive site for Now Yapı with React and Swiper.js. Stylish and functional design.",
-        "TR": "Now Yapı için React ve Swiper.js ile hazırlanmış şık ve işlevsel bir web sitesi."
-      }
-    },
     "codeLink": "",
     "iconFile": "",
     "imageFiles": ["images/NowYapı.jpeg"],
@@ -123,16 +119,6 @@
     "shortDescription": {
       "EN": "A Twitch bot that provides live game stats for League of Legends and Teamfight Tactics using Riot API.",
       "TR": "Riot API'sini kullanarak, League of Legends ve Teamfight Tactics için canlı oyun istatistikleri sağlayan bir Twitch botu."
-    },
-    "meta": {
-      "title": {
-        "EN": "Riot Twitch Bot | Game Stats Chatbot",
-        "TR": "Riot Twitch Botu | Oyun İstatistik Botu"
-      },
-      "description": {
-        "EN": "A Twitch chatbot using Riot API for live League and TFT data. Built with Node.js and Axios.",
-        "TR": "Riot API ile canlı oyun verisi sunan Node.js tabanlı Twitch sohbet botu."
-      }
     },
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBot",
     "iconFile": "",
@@ -154,16 +140,6 @@
     "shortDescription": {
       "EN": "A showcase website for the Riot Twitch Bot project, featuring interactive elements and responsive design.",
       "TR": "Riot Twitch Botu projesi için etkileşimli öğeler ve duyarlı tasarım içeren bir sergileme web sitesi."
-    },
-    "meta": {
-      "title": {
-        "EN": "Riot Twitch Bot Website | Showcase Site",
-        "TR": "Riot Twitch Botu Web Sitesi | Tanıtım Sitesi"
-      },
-      "description": {
-        "EN": "Interactive and responsive website to present the Riot Twitch Bot. Built with React.",
-        "TR": "Riot Twitch Botu'nu tanıtmak için interaktif ve duyarlı React tabanlı web sitesi."
-      }
     },
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBotWebsite",
     "iconFile": "",
