@@ -1,5 +1,6 @@
 "use client";
 import { useLang } from "../context/LangContext";
+import Image from "next/image";
 
 export default function Hero() {
   const heroContent = {
@@ -26,10 +27,13 @@ export default function Hero() {
           <p className="max-w-xl text-gray-300 mb-6">{c.desc}</p>
         </div>
         <div className="flex-1 flex justify-center items-center mb-8 md:mb-0">
-          <img
-            src="/images/profilePicture.png"
+          <Image
+            src="/images/profilePicture.webp"
             alt="Profile Picture"
+            width={320}
+            height={320}
             className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full shadow-xl"
+            priority
           />
         </div>
       </div>

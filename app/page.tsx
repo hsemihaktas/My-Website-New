@@ -1,13 +1,13 @@
 import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
-import Projects from "../components/Projects";
+import ProjectsClientWrapper from "../components/ProjectsClientWrapper";
 
 export default function Home() {
   return (
     <main>
       <Hero />
       <AboutMe />
-      <Projects />
+  <ProjectsClientWrapper />
       {/* Diğer componentler buraya eklenecek */}
     </main>
   );

@@ -1,5 +1,6 @@
 "use client"
 import React from "react";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore from "swiper";
 import "swiper/css";
@@ -84,10 +85,10 @@ export default function ProjectPage({ params }: { params: Promise<{ slug: string
                 mediaSlides.map((media, idx) => (
                   <SwiperSlide key={idx}>
                     {media.type === "icon" && (
-                      <img src={media.src} alt="icon" className="w-4/7 h-1/2 object-contain mx-auto" />
+                      <Image src={media.src} alt="icon" width={160} height={128} className="w-4/7 h-1/2 object-contain mx-auto" />
                     )}
                     {media.type === "image" && (
-                      <img src={media.src} alt={project.title[locale] + " image"} className="w-full max-h-96 object-cover aspect-auto object-top group-hover:object-bottom transition-all duration-1000" />
+                      <Image src={media.src} alt={project.title[locale] + " image"} width={384} height={384} className="w-full max-h-96 object-cover aspect-auto object-top group-hover:object-bottom transition-all duration-1000" />
                     )}
                     {media.type === "video" && (
                       <video
@@ -118,10 +119,10 @@ export default function ProjectPage({ params }: { params: Promise<{ slug: string
                     style={{ width: 48, height: 48 }}
                   >
                     {media.type === "icon" && (
-                      <img src={media.src} alt="icon thumb" className="w-full h-full object-contain" />
+                      <Image src={media.src} alt="icon thumb" width={48} height={48} className="w-full h-full object-contain" />
                     )}
                     {media.type === "image" && (
-                      <img src={media.src} alt="image thumb" className="w-full h-full object-cover" />
+                      <Image src={media.src} alt="image thumb" width={48} height={48} className="w-full h-full object-cover" />
                     )}
                     {media.type === "video" && (
                       <span className="flex items-center justify-center w-full h-full">

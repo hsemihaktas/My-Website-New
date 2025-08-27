@@ -1,5 +1,5 @@
 "use client";
-import { FaLinkedin, FaDribbble, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 import { useLang } from "../context/LangContext";
 
 export default function Footer() {

@@ -2,6 +2,7 @@
 
 
 import projects from "../data/projects.json";
+import Image from "next/image";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useLang } from "../context/LangContext";
@@ -61,15 +62,19 @@ export default function Projects() {
             >
               <div className="w-full h-48 overflow-hidden rounded group flex items-center justify-center bg-transparent">
                 {project.iconFile ? (
-                  <img
+                  <Image
                     src={"/" + project.iconFile}
                     alt={project.title[locale] + " icon"}
+                    width={160}
+                    height={192}
                     className="w-1/2 h-full object-cover aspect-auto mx-auto"
                   />
                 ) : project.imageFiles && project.imageFiles.length > 0 ? (
-                  <img
+                  <Image
                     src={"/" + project.imageFiles[0]}
                     alt={project.title[locale]}
+                    width={384}
+                    height={192}
                     className="w-full h-full object-cover aspect-auto object-top group-hover:object-bottom transition-all duration-1000"
                   />
                 ) : (
