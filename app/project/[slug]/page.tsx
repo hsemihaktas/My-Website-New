@@ -5,12 +5,23 @@ import SwiperCore from "swiper";
 import "swiper/css";
 import { notFound } from "next/navigation";
 import projects from "../../../data/projects.json";
+type Project = {
+  title: { EN: string; TR: string };
+  description: { EN: string; TR: string };
+  shortDescription: { EN: string; TR: string };
+  codeLink: string;
+  iconFile: string;
+  imageFiles: string[];
+  videoFile: string;
+  projectSite: string;
+  url: string;
+  technologies: string[];
+};
 import { useLang } from "../../../context/LangContext";
-
 
 export default function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = React.use(params) as { slug: string };
-  const project = (projects as any[]).find((p) => p.url.endsWith(slug));
+  const project = (projects as Project[]).find((p) => p.url.endsWith(slug));
   const { lang } = useLang();
   const locale = lang === "tr" ? "TR" : "EN";
   const labels = {
