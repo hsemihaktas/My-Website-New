@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Hasan Semih Aktaş – Kişisel Web Sitesi
 
-## Getting Started
+Bu proje, kişisel portföy ve blog web sitemi temsil eder; modern bir frontend teknolojileri yığını kullanılarak geliştirilmiştir.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Canlı Site
+
+🔗 https://hsemihaktas.vercel.app/
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+- **Next.js** – React tabanlı, SSR (Server-Side Rendering) ve SSG (Static Site Generation) desteği.
+- **React** & **TypeScript** – Ölçeklenebilirlik ve tip güvenliği sağlar.
+- **Tailwind CSS** – Modern, responsive stil kütüphanesi.
+- **next/font** – Performans ve SEO için font optimizasyonu (ör. Geist).
+- **Vercel** – Otomatik deploy ve global CDN.
+
+---
+
+## ✨ Öne Çıkan Özellikler
+
+- ⚡ Hızlı ve modern kullanıcı deneyimi  
+- 🔄 Hot Reload destekli geliştirme ortamı  
+- 🔍 SEO dostu sayfa yapısı  
+- 📱 Mobil uyumlu ve duyarlı tasarım  
+- 🌍 Vercel ile otomatik deploy  
+
+---
+
+## 📂 Proje Yapısı
+
+```
+My-Website-New/
+├── app/
+│   ├── project/[slug]/
+│   │   ├── page.tsx   # Projelerin Detay sayfası
+│   ├── page.tsx       # Ana sayfa bileşeni
+│   └── layout.tsx     # Genel sayfa düzeni
+├── public/            # Statik dosyalar (görseller, fontlar)
+├── styles/            # Genel stil tanımları
+├── components/        # Tekrar kullanılabilir bileşenler
+├── context/
+├── data/
+├── package.json
+├── README.md
+└── next.config.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🖥️ Kurulum & Çalıştırma
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Depoyu klonla
+git clone https://github.com/hsemihaktas/My-Website-New.git
 
-## Learn More
+# Proje klasörüne gir
+cd My-Website-New
 
-To learn more about Next.js, take a look at the following resources:
+# Bağımlılıkları yükle
+npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Geliştirme sunucusunu başlat
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+👉 Uygulama ardından `http://localhost:3000` adresinde çalışır.  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📬 İletişim
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👤 **Hasan Semih Aktaş**  
+- 💻 GitHub: [hsemihaktas](https://github.com/hsemihaktas)  
+- 🔗 LinkedIn: [hsemihaktas](https://www.linkedin.com/in/hsemihaktas/) 
