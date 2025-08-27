@@ -20,13 +20,18 @@
       }
     },
     "codeLink": "https://github.com/hsemihaktas/EstateWebsite",
-    "imageFile": "images/EstateWebsite.png",
+    "iconFile": "",
+    "imageFiles": ["images/EstateWebsite.png"],
+    "videoFile": "",
     "projectSite": "",
     "url": "/project/property-website",
     "technologies": ["ReactJS", "NodeJS", "MySQL", "JavaScript", "TailwindCSS"]
   },
   {
-    "title": { "EN": "Birthday Organization Website", "TR": "Doğum Günü Organizasyon Web Sitesi" },
+    "title": {
+      "EN": "Birthday Organization Website",
+      "TR": "Doğum Günü Organizasyon Web Sitesi"
+    },
     "description": {
       "EN": "-Developed a vibrant and user-friendly website for birthday party planning. -Built with Next.js and integrated EmailJS for seamless contact form functionality. -Offers customized birthday packages and online reservation features to enhance user engagement and booking experience.",
       "TR": "-Doğum günü partisi planlaması için canlı ve kullanıcı dostu bir web sitesi geliştirdim. -İletişim formu işlevselliği için EmailJS entegrasyonu ile Next.js kullanılarak oluşturuldu. -Kullanıcı etkileşimini ve rezervasyon deneyimini artırmak amacıyla kişiye özel doğum günü paketleri ve online rezervasyon özellikleri sunar."
@@ -46,7 +51,9 @@
       }
     },
     "codeLink": "",
-    "imageFile": "images/Birthday-Organization.jpeg",
+    "iconFile": "",
+    "imageFiles": ["images/Birthday-Organization.jpeg"],
+    "videoFile": "",
     "projectSite": "https://birthday-organization.vercel.app/",
     "url": "/project/birthday-organization",
     "technologies": ["NextJS", "TailwindCSS", "HTML5", "CSS3", "JavaScript"]
@@ -72,7 +79,9 @@
       }
     },
     "codeLink": "",
-    "imageFile": "images/PAE.jpeg",
+    "iconFile": "",
+    "imageFiles": ["images/PAE.jpeg"],
+    "videoFile": "",
     "projectSite": "",
     "url": "/project/pae-website",
     "technologies": ["NextJS", "TailwindCSS", "JavaScript", "HTML5", "CSS3"]
@@ -98,7 +107,9 @@
       }
     },
     "codeLink": "",
-    "imageFile": "images/NowYapı.jpeg",
+    "iconFile": "",
+    "imageFiles": ["images/NowYapı.jpeg"],
+    "videoFile": "",
     "projectSite": "https://now-yapi.vercel.app/",
     "url": "/project/now-yapi-website",
     "technologies": ["ReactJS", "TailwindCSS", "JSON", "JavaScript", "HTML5", "CSS3"]
@@ -124,13 +135,18 @@
       }
     },
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBot",
-    "imageFile": "images/RiotTwicthBot.png",
+    "iconFile": "",
+    "imageFiles": ["images/RiotTwicthBot.png"],
+    "videoFile": "",
     "projectSite": "",
     "url": "/project/riot-twitch-bot",
     "technologies": ["NodeJS", "JavaScript"]
   },
   {
-    "title": { "EN": "Riot Twitch Bot Website", "TR": "Riot Twitch Botu Web Sitesi" },
+    "title": {
+      "EN": "Riot Twitch Bot Website",
+      "TR": "Riot Twitch Botu Web Sitesi"
+    },
     "description": {
       "EN": "-Created a dedicated website to showcase the Riot Twitch Bot project, enhancing its visibility and engagement. -Built with React.js, HTML5, and CSS3 to provide a visually appealing and responsive design. -Included interactive elements to help users explore and understand the features of the Riot Twitch Bot, fostering community interest and participation.",
       "TR": "-Riot Twitch Botu projesini sergilemek için özel bir web sitesi oluşturduk, görünürlüğünü ve etkileşimini artırdık. -React.js, HTML5 ve CSS3 ile görsel olarak çekici ve duyarlı bir tasarım sundum. -Kullanıcıların Riot Twitch Botu'nun özelliklerini keşfetmesine yardımcı olacak etkileşimli öğeler ekledim, topluluk ilgisini ve katılımını teşvik ettim."
@@ -150,7 +166,9 @@
       }
     },
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBotWebsite",
-    "imageFile": "images/RiotTwitchBotWebsite.png",
+    "iconFile": "",
+    "imageFiles": ["images/RiotTwitchBotWebsite.png"],
+    "videoFile": "",
     "projectSite": "https://riottwitchbot.vercel.app/",
     "url": "/project/riot-twitch-bot-website",
     "technologies": ["ReactJS", "HTML5", "CSS3", "JavaScript", "JSON"]
