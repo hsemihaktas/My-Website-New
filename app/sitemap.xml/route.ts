@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import projects from '../../data/projects.json';
 
 const BASE_URL = 'https://hsemihaktas.vercel.app'; // Kendi domainini buraya yaz
 
@@ -10,12 +11,10 @@ export async function GET() {
     'projects',
   ];
 
-  // Dinamik projeler için örnek
-  // Gerçek projeleri data/projects.json'dan çekebilirsin
-  const dynamicProjects = [
-    'project1',
-    'project2',
-  ];
+  // Dinamik projeler: projects.json'dan slug'ları çek
+  const dynamicProjects = Array.isArray(projects)
+    ? projects.map((p) => p.url.replace('/project/', ''))
+    : [];
 
   const urls = [
     ...staticPages.map((page) => `${BASE_URL}/${page}`),
