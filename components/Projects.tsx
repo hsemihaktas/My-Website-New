@@ -59,18 +59,18 @@ export default function Projects() {
               style={{ transformOrigin: "top center" }}
               className="bg-[#18181b] rounded-lg shadow-md p-8 flex flex-col hover:scale-[1.03] transition border border-[#232329] min-w-0"
             >
-              <div className="w-full max-h-48 overflow-hidden rounded group flex items-center justify-center bg-gray-900">
+              <div className="w-full h-48 overflow-hidden rounded group flex items-center justify-center bg-transparent">
                 {project.iconFile ? (
                   <img
                     src={"/" + project.iconFile}
                     alt={project.title[locale] + " icon"}
-                    className="w-20 h-20 object-contain mx-auto"
+                    className="w-1/2 h-full object-cover aspect-auto mx-auto"
                   />
                 ) : project.imageFiles && project.imageFiles.length > 0 ? (
                   <img
                     src={"/" + project.imageFiles[0]}
                     alt={project.title[locale]}
-                    className="w-full max-h-48 object-cover aspect-auto object-top group-hover:object-bottom transition-all duration-1000"
+                    className="w-full h-full object-cover aspect-auto object-top group-hover:object-bottom transition-all duration-1000"
                   />
                 ) : (
                   <div className="w-full h-32 flex items-center justify-center text-gray-500">No image</div>

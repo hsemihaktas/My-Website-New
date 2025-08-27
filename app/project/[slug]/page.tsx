@@ -7,6 +7,7 @@ import { notFound } from "next/navigation";
 import projects from "../../../data/projects.json";
 import { useLang } from "../../../context/LangContext";
 
+
 export default function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = React.use(params) as { slug: string };
   const project = (projects as any[]).find((p) => p.url.endsWith(slug));
@@ -73,7 +74,7 @@ export default function ProjectPage({ params }: { params: Promise<{ slug: string
                 mediaSlides.map((media, idx) => (
                   <SwiperSlide key={idx}>
                     {media.type === "icon" && (
-                      <img src={media.src} alt="icon" className="w-32 h-32 object-contain mx-auto" />
+                      <img src={media.src} alt="icon" className="w-4/7 h-1/2 object-contain mx-auto" />
                     )}
                     {media.type === "image" && (
                       <img src={media.src} alt={project.title[locale] + " image"} className="w-full max-h-96 object-cover aspect-auto object-top group-hover:object-bottom transition-all duration-1000" />
