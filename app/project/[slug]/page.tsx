@@ -38,7 +38,7 @@ export default function ProjectPage({ params }: { params: Promise<{ slug: string
   }
   return (
     <div className="min-h-screen flex flex-col">
-      <main className="flex-1 max-w-7xl mx-auto py-16 px-1 md:px-4 flex justify-center items-center">
+      <main className="flex-1 max-w-7xl mx-auto py-16 px-8 md:px-4 flex justify-center items-center">
         <div className="flex flex-col md:flex-row gap-12 md:gap-20 items-center w-full justify-center">
           {/* Left: Image */}
           <div className="md:w-2/5 w-full flex-shrink-0 flex justify-center items-center group">
@@ -58,7 +58,7 @@ export default function ProjectPage({ params }: { params: Promise<{ slug: string
                 </span>
               ))}
             </div>
-            <div className="text-gray-200 mb-6 w-full text-center md:text-left">
+            <div className="text-gray-200 mb-6 w-full text-left">
               {descriptionContent}
             </div>
             <div className="flex gap-6 mt-2 justify-center md:justify-start">

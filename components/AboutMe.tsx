@@ -26,7 +26,7 @@ export default function AboutMe() {
   const { lang } = useLang();
   const c = aboutContent[lang as 'tr' | 'en'];
   return (
-    <section id="about" className="min-h-[80vh] flex flex-col items-center justify-center text-center py-0 -mt-12 border-b border-neutral-800 w-full">
+    <section id="about" className="min-h-[80vh] flex flex-col items-center justify-center text-center py-8 md:py-0 border-b border-neutral-800 w-full px-6 md:px-0">
       <div className="max-w-2xl mx-auto w-full">
         <h2 className="text-3xl md:text-4xl font-bold mb-2">{c.title}</h2>
         <span className="text-xs text-blue-400 mb-4">{c.subtitle}</span>
