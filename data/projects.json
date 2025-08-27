@@ -2,11 +2,11 @@
   {
     "title": { "EN": "Encrypt Dairy", "TR": "Encrypt Dairy" },
     "description": {
-      "EN": "-Secure Notes: Stores personal notes securely with AES-based encryption. -React Native & Expo: Mobile app for both iOS and Android. -Data Management: Add, read, update, and delete notes. -Advanced Encryption: Uses expo-crypto for note encryption, accessible only with the correct key. -User Experience: Minimal and user-friendly interface design.",
+      "EN": "-Secure Notes: Stores personal notes securely with AES based encryption. -React Native & Expo: Mobile app for both iOS and Android. -Data Management: Add, read, update, and delete notes. -Advanced Encryption: Uses expo crypto for note encryption, accessible only with the correct key. -User Experience: Minimal and user friendly interface design.",
       "TR": "-Güvenli Notlar: Kullanıcıların kişisel notlarını AES tabanlı şifreleme ile güvenli bir şekilde saklar. -React Native & Expo: Hem iOS hem Android platformlarında çalışabilen mobil uygulama. -Veri Yönetimi: Not ekleme, okuma, güncelleme ve silme işlemleri. -Gelişmiş Şifreleme: expo-crypto kullanarak notların şifrelenmesi ve yalnızca doğru anahtar ile erişim sağlanması. -Kullanıcı Deneyimi: Minimal ve kullanıcı dostu arayüz tasarımı."
     },
     "shortDescription": {
-      "EN": "A secure note-taking app with AES encryption, built using React Native & Expo.",
+      "EN": "A secure note taking app with AES encryption, built using React Native & Expo.",
       "TR": "AES şifreleme ile güvenli not tutma uygulaması, React Native & Expo ile geliştirildi."
     },
     "codeLink": "",
@@ -59,7 +59,7 @@
       "TR": "Doğum Günü Organizasyon Web Sitesi"
     },
     "description": {
-      "EN": "-Developed a vibrant and user-friendly website for birthday party planning. -Built with Next.js and integrated EmailJS for seamless contact form functionality. -Offers customized birthday packages and online reservation features to enhance user engagement and booking experience.",
+      "EN": "-Developed a vibrant and user friendly website for birthday party planning. -Built with Next.js and integrated EmailJS for seamless contact form functionality. -Offers customized birthday packages and online reservation features to enhance user engagement and booking experience.",
       "TR": "-Doğum günü partisi planlaması için canlı ve kullanıcı dostu bir web sitesi geliştirdim. -İletişim formu işlevselliği için EmailJS entegrasyonu ile Next.js kullanılarak oluşturuldu. -Kullanıcı etkileşimini ve rezervasyon deneyimini artırmak amacıyla kişiye özel doğum günü paketleri ve online rezervasyon özellikleri sunar."
     },
     "shortDescription": {
@@ -81,7 +81,7 @@
       "TR": "-Tailwind CSS ve HTML5 kullanarak Next.js ile optimize edilmiş bir web uygulaması geliştirdim. -UI/UX ekipleriyle koordineli çalışarak projelerin zamanında tamamlanmasını sağladım."
     },
     "shortDescription": {
-      "EN": "A fast and responsive Next.js website with a user-friendly interface and optimized performance.",
+      "EN": "A fast and responsive Next.js website with a user friendly interface and optimized performance.",
       "TR": "Hızlı ve duyarlı bir Next.js web sitesi, kullanıcı dostu bir arayüz ve optimize edilmiş performans."
     },
     "codeLink": "",
@@ -99,7 +99,7 @@
       "TR": "-React.js tabanlı bir frontend geliştirmesin bulundum, Tailwind CSS ile responsive tasarımlar entegre ettim. -Swiper.js kullanarak etkileşimli slider’lar oluşturdum, görsel çekicilik ve kullanıcı etkileşimini artırdım. -JSON veri entegrasyonu ile API iletişimini düzenleyerek gerekli verilerin sorunsuz bir şekilde çekilmesini sağladım."
     },
     "shortDescription": {
-      "EN": "An elegant React-based website for a construction company, featuring interactive sliders and seamless UX.",
+      "EN": "An elegant React based website for a construction company, featuring interactive sliders and seamless UX.",
       "TR": "Etkileşimli kaydırıcılar ve sorunsuz UX içeren, bir inşaat şirketi için şık bir React tabanlı web sitesi."
     },
     "codeLink": "",
