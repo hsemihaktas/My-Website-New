@@ -34,6 +34,7 @@ export default function ProjectPage({ params }: { params: Promise<{ slug: string
       live: "Live Site"
     }
   };
+  const swiperRef = React.useRef<SwiperCore | null>(null);
   if (!project) return notFound();
   const l = labels[lang];
   // Description: render as bullet points for every '-'
@@ -66,8 +67,6 @@ export default function ProjectPage({ params }: { params: Promise<{ slug: string
     mediaSlides.push({ type: "video", src: "/" + project.videoFile });
   }
 
-  // Swiper ref for slide navigation
-  const swiperRef = React.useRef<SwiperCore | null>(null);
 
   return (
     <div className="min-h-screen flex flex-col">
