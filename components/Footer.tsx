@@ -1,5 +1,6 @@
 "use client";
-import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { useLang } from "../context/LangContext";
 
 export default function Footer() {
@@ -21,7 +22,7 @@ export default function Footer() {
       <div className="flex gap-4 mb-4 md:mb-0">
         <a href="https://www.linkedin.com/in/hsemihaktas/" aria-label="LinkedIn" className="hover:text-blue-400 transition"><FaLinkedin size={22} /></a>
         <a href="https://www.instagram.com/hsemihaktas/" aria-label="Instagram" className="hover:text-pink-500 transition"><FaInstagram size={22} /></a>
-        <a href="#" aria-label="Twitter" className="hover:text-blue-300 transition"><FaTwitter size={22} /></a>
+  <a href="https://x.com/hsemihaktas" aria-label="X" className="hover:text-blue-300 transition"><FaXTwitter size={22} /></a>
       </div>
       <div className="flex items-center gap-2">
         <a href={`mailto:${c.mail}`} className="border px-4 py-2 rounded-md bg-neutral-900 text-gray-200 hover:bg-blue-500 hover:text-white transition text-sm flex items-center gap-2">
