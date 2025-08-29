@@ -35,7 +35,7 @@ export default function Footer() {
       <div className="flex items-center gap-2">
         <div className="flex items-center gap-1">
           <a
-            href="mailto:hsemihaktas@gmail.com"
+            href={`mailto:${c.mail}`}
             target="_blank"
             rel="noopener noreferrer"
             className="border px-4 py-2 rounded-md bg-neutral-900 text-gray-200 text-sm select-text cursor-pointer hover:bg-blue-500 hover:text-white transition"
