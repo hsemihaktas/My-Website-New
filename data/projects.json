@@ -18,7 +18,10 @@
     "technologies": ["React Native", "Expo", "expo-crypto", "AES", "Mobile"]
   },
   {
-    "title": { "EN": "Word Application - Lexicon", "TR": "Word Application - Lexicon" },
+    "title": {
+      "EN": "Word Application - Lexicon",
+      "TR": "Word Application - Lexicon"
+    },
     "description": {
       "EN": "-Word translation and synonym display (with MyMemory & Datamuse API). -Add/remove favorites and interactive word learning with game mode. -Built using React Native, Expo, Context API, React Navigation, Material Icons, Axios/Fetch.",
       "TR": "-Kelime çeviri ve eşanlamlı gösterimi (MyMemory & Datamuse API ile). -Favorilere ekleme/çıkarma ve oyun moduyla etkileşimli kelime öğrenimi. -React Native, Expo, Context API, React Navigation, Material Icons, Axios/Fetch teknolojileri kullanıldı."
@@ -27,7 +30,7 @@
       "EN": "A mobile app for word translation, synonyms, and interactive learning.",
       "TR": "Kelime çeviri, eşanlamlı ve etkileşimli öğrenim için mobil uygulama."
     },
-    "codeLink": "",
+    "codeLink": "https://github.com/hsemihaktas/Lexicon-WordApplication",
     "iconFile": "images/Lexicon-Icon.png",
     "imageFiles": [],
     "videoFile": "videos/Lexicon.mp4",
@@ -108,7 +111,14 @@
     "videoFile": "",
     "projectSite": "https://now-yapi.vercel.app/",
     "url": "/project/now-yapi-website",
-    "technologies": ["ReactJS", "TailwindCSS", "JSON", "JavaScript", "HTML5", "CSS3"]
+    "technologies": [
+      "ReactJS",
+      "TailwindCSS",
+      "JSON",
+      "JavaScript",
+      "HTML5",
+      "CSS3"
+    ]
   },
   {
     "title": { "EN": "Riot Twitch Bot", "TR": "Riot Twitch Botu" },
