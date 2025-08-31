@@ -1,6 +1,6 @@
 [
   {
-    "title": { "EN": "Encrypt Dairy", "TR": "Encrypt Dairy" },
+    "title": { "EN": "Encrypt Diary", "TR": "Encrypt Diary" },
     "description": {
       "EN": "-Secure Notes: Stores personal notes securely with AES based encryption. -React Native & Expo: Mobile app for both iOS and Android. -Data Management: Add, read, update, and delete notes. -Advanced Encryption: Uses expo crypto for note encryption, accessible only with the correct key. -User Experience: Minimal and user friendly interface design.",
       "TR": "-Güvenli Notlar: Kullanıcıların kişisel notlarını AES tabanlı şifreleme ile güvenli bir şekilde saklar. -React Native & Expo: Hem iOS hem Android platformlarında çalışabilen mobil uygulama. -Veri Yönetimi: Not ekleme, okuma, güncelleme ve silme işlemleri. -Gelişmiş Şifreleme: expo-crypto kullanarak notların şifrelenmesi ve yalnızca doğru anahtar ile erişim sağlanması. -Kullanıcı Deneyimi: Minimal ve kullanıcı dostu arayüz tasarımı."
@@ -10,11 +10,11 @@
       "TR": "AES şifreleme ile güvenli not tutma uygulaması, React Native & Expo ile geliştirildi."
     },
     "codeLink": "",
-    "iconFile": "images/Encrypt-Dairy-Icon.png",
+    "iconFile": "images/Encrypt-Diary-Icon.png",
     "imageFiles": [],
-    "videoFile": "videos/Encrypt-Dairy.mp4",
+    "videoFile": "videos/Encrypt-Diary.mp4",
     "projectSite": "",
-    "url": "/project/encrypt-dairy",
+    "url": "/project/encrypt-diary",
     "technologies": ["React Native", "Expo", "expo-crypto", "AES", "Mobile"]
   },
   {
