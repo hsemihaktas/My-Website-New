@@ -9,7 +9,7 @@
       "EN": "A secure note taking app with AES encryption, built using React Native & Expo.",
       "TR": "AES şifreleme ile güvenli not tutma uygulaması, React Native & Expo ile geliştirildi."
     },
-    "codeLink": "",
+    "codeLink": "https://github.com/hsemihaktas/EncryptDiary",
     "iconFile": "images/Encrypt-Diary-Icon.png",
     "imageFiles": [],
     "videoFile": "videos/Encrypt-Diary.mp4",
