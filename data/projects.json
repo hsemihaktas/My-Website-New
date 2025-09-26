@@ -39,6 +39,30 @@
     "technologies": ["React Native", "Expo", "MyMemory API", "Datamuse API"]
   },
   {
+    "title": { "EN": "IMDB Series Tierlist", "TR": "IMDB Dizi Tier Listesi" },
+    "description": {
+      "EN": "-A web application to rank TV series based on IMDB ratings. -Built using React.js and TailwindCSS for a responsive and visually appealing interface. -Features drag and drop functionality for creating tier lists. -Data fetched using a Python script based scraper for IMDB series data.",
+      "TR": "-IMDB puanlarına göre dizileri sıralamak için bir web uygulaması. -React.js ve TailwindCSS kullanılarak duyarlı ve görsel olarak çekici bir arayüz oluşturuldu. -Tier listeleri oluşturmak için sürükle bırak işlevselliği içerir. -IMDB dizi verilerini almak için Python script tabanlı bir scraper kullanıldı."
+    },
+    "shortDescription": {
+      "EN": "A web app for ranking TV series with drag-and-drop functionality and data fetched via Python scraper.",
+      "TR": "Sürükle bırak işlevselliği ve Python scraper ile veri çekme özellikli dizi sıralama web uygulaması."
+    },
+    "codeLink": "https://github.com/hsemihaktas/IMDB-Series-Tierlist",
+    "iconFile": "",
+    "imageFiles": ["images/IMDB-Series-Tierlist.jpeg"],
+    "videoFile": "",
+    "projectSite": "https://imdb-series-tierlist.vercel.app/",
+    "url": "/project/imdb-series-tierlist",
+    "technologies": [
+      "ReactJS",
+      "TailwindCSS",
+      "Python",
+      "Web Scraping",
+      "JavaScript"
+    ]
+  },
+  {
     "title": { "EN": "Property Website", "TR": "Emlak Web Sitesi" },
     "description": {
       "EN": "-Developed a full stack web application for property management using React.js, Node.js, and MySQL. -Successfully managed listing operations through efficient CRUD operations.",
